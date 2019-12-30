@@ -19,7 +19,8 @@ $(call inherit-product, packages/apps/GoogleCameraMod/xiaomi-sdm845/config.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
-    $(LOCAL_PATH)/overlay
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-aosip
 
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
