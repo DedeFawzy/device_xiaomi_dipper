@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="rounded_corner_content_padding">12dp</dimen>
+    <!-- the padding between dots in the icon overflow -->
+    <dimen name="overflow_icon_dot_padding">0dip</dimen>
+
+    <!--the size of the status bare clock -->
+    <dimen name="status_bar_clock_size">12.0sp</dimen>
+
+    <!-- gap on either side of status bar notification icons -->
+    <dimen name="status_bar_icon_padding">-0.5dp</dimen>
 </resources>
